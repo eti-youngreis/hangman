@@ -5,7 +5,7 @@ class Player:
         self.__name = name
         self.__tryings = 0
 
-    def decrees_tryings(self):
+    def increase_tryings(self):
         self.__tryings += 1
 
     def get_name(self):
